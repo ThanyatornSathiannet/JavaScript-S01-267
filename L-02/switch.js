@@ -1,4 +1,4 @@
-const status = 700;
+const status = 200;
 
 switch (status) {
     case 200:
