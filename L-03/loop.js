@@ -1,9 +1,9 @@
-const names = ["Justin", "Sarah", "Christopher"];
+const names = ['Justin', 'Sarah', 'Christopher'];
 
 console.log('-- while --');
 let index = 0;
 while (index < names.length) {
-    const name = names(index);
+    const name = names[index];
     console.log(name);
     index++;
 }
