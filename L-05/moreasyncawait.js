@@ -2,7 +2,7 @@ function who() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve("🤡");
-        }, 200);
+        }, 500);
     });
 }
 
@@ -11,14 +11,14 @@ function what() {
         setTimeout(() => {
             resolve("lurks");
 
-        }, 300);
+        }, 900);
     });
 }
 function where() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve("in the shadows");
-        }, 500);
+        }, 1200);
     });
 }
 
