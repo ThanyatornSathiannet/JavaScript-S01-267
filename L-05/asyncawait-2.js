@@ -5,7 +5,7 @@ function promiseTimeout(ms) {
 }
 
 async function longRunningOperation() {
-    return 42;
+    return "HeHhe";
 }
 
 async function run() {
